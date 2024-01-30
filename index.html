@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch JavaScript(JS)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tab HTML -->
+        <div class="tab-box">
+            <button class="tab_btn">StopWatch</button>
+            <button class="tab_btn">Timer</button>
+            <div class="line"></div>
+        </div>
+        <div class="content-box">
+            <!-- StopWatch HTML -->
+            <div class="content">
+                <p>
+                    <span id="hoursSpan">00</span><span>:</span><span id="minuteSpan">00</span><span>:</span><span id="secondsSpan">00</span>
+                </p>
+                <div class="button-group">
+                    <button id="startBtn">Start</button>
+                    <button id="stopBtn">Stop</button>
+                    <button id="resetBtn">Reset</button>
+                </div>
+            </div>
+            <!-- Timer HTML -->
+            <div class="content">
+                <p><input id="hourInput" type="number" max="99" min="0" value="0" class="time"><span>Hr:</span><input id="minuteInput"
+                        type="number" max="60" min="0" value="0" class="time"><span>Min:</span><input id="secondInput" type="number"
+                        max="60" min="0" value="0" class="time"><span>Sec:</span></p>
+                <div class="button-group">
+                    <button id="startTimerBtn">Start</button>
+                    <button id="resetTimerBtn">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://bit.ly/codedamn-web-console"></script>
+    <script src="index.js"></script>
+</body>
+</html>
